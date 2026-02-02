@@ -1,4 +1,5 @@
 import './App.css'
+import MainComponent from './components/MainComponent'
 import NavComponent from './components/NavComponent'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <NavComponent />
+      <MainComponent />
     </>
   )
 }
