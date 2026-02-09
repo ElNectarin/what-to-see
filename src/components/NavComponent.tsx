@@ -3,7 +3,7 @@ import "../styles/NavComponentStyle.scss";
 import avatarImg from "../assets/account.png"
 
 function NavComponent() {
-  const [isLogin, setIsLogin] = React.useState<boolean>(true);
+  const [isLogin, setIsLogin] = React.useState<boolean>(false);
 
   return (
     <nav className="navbar_main_container">
